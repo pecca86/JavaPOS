@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="648.0" prefWidth="1000.0"
+            xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="frontend.admin.MarketingController">
+    <ButtonBar layoutY="585.0" prefHeight="42.0" prefWidth="1000.0">
+        <buttons>
+            <Button fx:id="showPopular" mnemonicParsing="false" text="Popular"/>
+            <Button fx:id="showPopularBonus" mnemonicParsing="false"
+                    text="Popular (bonus)"/>
+            <DatePicker fx:id="startDate"/>
+            <DatePicker fx:id="endDate"/>
+            <Label alignment="CENTER" minWidth="20.0" prefHeight="17.0" text="OR"/>
+            <Button fx:id="getCustomer" mnemonicParsing="false" text="Customer"/>
+            <TextField fx:id="customer" prefHeight="25.0"/>
+        </buttons>
+    </ButtonBar>
+    <TableView fx:id="tableView" layoutX="14.0" layoutY="40.0" prefHeight="545.0"
+               prefWidth="976.0">
+    </TableView>
+    <Label fx:id="outputTitle" layoutX="14.0" layoutY="14.0" prefHeight="19.0"
+           prefWidth="976.0"/>
+</AnchorPane>

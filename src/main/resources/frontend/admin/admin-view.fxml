@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="656.0" prefWidth="969.0" xmlns="http://javafx.com/javafx/16"
+            xmlns:fx="http://javafx.com/fxml/1"> <!--fx:controller="frontend.admin.MainController"-->
+    <TabPane prefHeight="700.0" prefWidth="1000.0"
+             tabClosingPolicy="UNAVAILABLE">
+        <Tab text="Marketing">
+            <fx:include source="marketing-view.fxml" fx:id="marketingTab"/>
+        </Tab>
+        <Tab text="Sales">
+            <fx:include source="sales-view.fxml" fx:id="salesTab"/>
+        </Tab>
+    </TabPane>
+</AnchorPane>

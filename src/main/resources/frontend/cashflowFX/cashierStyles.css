@@ -1,0 +1,61 @@
+
+
+.HBox {
+    -fx-background-color: #bad1d6;
+}
+
+
+#gridPaneLowLeft {
+    /* -fx-border: solid 1px; 
+    -fx-border-radius: 1px;
+    -fx-border-color: black; */
+    -fx-background-color: #a8abb9;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+
+.button {
+    -fx-background-color: 
+    #c3c4c4,
+    linear-gradient(#d6d6d6 50%, white 100%),
+    radial-gradient(center 50% -40%, radius 200%, #e6e6e6 45%, rgba(230,230,230,0) 50%);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,1;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+}
+
+
+#payBtn {
+    -fx-background-color:
+        linear-gradient(#e4ec71, #bceb5f),
+        radial-gradient(center 50% -40%, radius 200%, #c6e08a 45%, #b7d87f 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #395306;
+}
+
+#cartTotalLabel {
+    -fx-font-size: 15px;
+}
+
+#cartSum {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-color: #3f3f3f;
+}
+
+
+/*
+#payBtn {
+    -fx-background-color:
+        linear-gradient(#f2f2f2, #a1e09f),
+        linear-gradient(#fcfcfc 0%, #beda9f 20%, #a1e09f 100%),
+        linear-gradient(#b7c4a2 0%, #f6f6f6 50%);
+    -fx-background-radius: 8,7,6;
+    -fx-background-insets: 0,1,2;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+*/
